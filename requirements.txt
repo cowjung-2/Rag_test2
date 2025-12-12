@@ -6,6 +6,7 @@ tiktoken>=0.7,<1
 langchain>=0.2,<0.3
 langchain-community>=0.2,<0.3
 langchain-text-splitters>=0.2,<0.3
+langserve == 0.1.1
 
 # Google GenAI + LangChain 커넥터 (호환 세트)
 langchain-google-genai==1.0.10
@@ -20,6 +21,8 @@ faiss-cpu>=1.8,<2
 # 문서 로더
 pypdf>=4.2,<5
 pymupdf>=1.24,<1.25
+pypdfium2==4.30.0
 
 # (선택) .docx 지원을 쓰려면
 docx2txt>=0.8.0
+
